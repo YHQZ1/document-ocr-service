@@ -1,9 +1,7 @@
 from engine.extraction import extract_tokens
-
 from engine.layout.rows import cluster_rows
 from engine.layout.columns import infer_column_centers, assign_columns
 from engine.layout.table import build_row_column_matrix
-
 
 if __name__ == "__main__":
     file_path = "data/image.png"
